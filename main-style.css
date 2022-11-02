@@ -1,0 +1,88 @@
+*{
+				margin: 0;
+				padding: 0;
+}
+header{
+				color: black;
+				background-color: grey;
+				font-size: 30px;
+				text-align: center;
+				margin-bottom: 10px;
+}
+
+body{
+				background-color: black;
+}
+button {
+ padding: 0.8em 1.8em;
+ border: 2px solid #17C3B2;
+ position: relative;
+ overflow: hidden;
+ background-color: transparent;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 16px;
+ transition: .3s;
+ z-index: 1;
+ font-family: inherit;
+ color: #17C3B2;
+ 
+ margin-bottom: 10px;
+ margin-left: 10px;
+ width: 160px;
+}
+
+button::before {
+ content: '';
+ width: 0;
+ height: 300%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) rotate(45deg);
+ background: #17C3B2;
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+}
+
+a{
+				text-decoration: none;
+				color: blue;
+}
+button:hover::before {
+ width: 105%;
+}
+
+button:hover {
+ color: #111;
+}
+
+
+#science::before{
+				background-color: red;
+}
+
+#math::before{
+				background-color: #7bff55;
+}
+
+#a-p::before{
+				background-color: #ffa840;
+}
+
+#mapeh::before{
+				background-color: #ffe740;
+}
+#filipino::before{
+				background-color: #902bff;
+}
+
+#esp::before{
+				background-color: grey;
+
+}
+
+#esp:hover{
+				color: white;
+}
