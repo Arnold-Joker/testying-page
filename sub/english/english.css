@@ -1,0 +1,48 @@
+body{
+				background: black;
+}
+button{
+				width: 150px;
+				height: 150px;
+				border: solid white 3px;
+				border-radius: 10px;
+				background: black;
+				color: white;
+				text-align: center;
+				margin-left: 10px;
+				margin-bottom: 10px;
+				transition-duration: 500ms;
+				
+}
+
+button a{
+				text-decoration: none;
+				color: white;
+				
+}
+
+button a:hover{
+				color: black;
+}
+button:hover{
+				background: #9cbba4;
+				color: black;
+				border: solid red 3px;
+}
+#top-text{
+				border-bottom: solid grey;
+				position: relative;
+				top: 0;
+				color: GREY;
+}
+
+#q-2:hover{
+				border: solid blue 3px;
+}
+#q-3:hover{
+				border: solid green 3px;
+}
+
+#q-4:hover{
+				border: solid #00eaff 3px;
+}
